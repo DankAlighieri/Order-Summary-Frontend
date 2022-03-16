@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #FFF; 
-    width: 400px;
+    width: 350px;
     height: auto;
     text-align: center;
     border-radius: 10px;
@@ -38,12 +38,13 @@ body{
 }
 
 .cabeçalho_imagem {
-    width: 400px;
+    width: 350px;
     border-radius: 10px 10px 0px 0px;
 }
 
 .titulo_topo {
     border: 1px solid red;
+    color: hsl(223, 47%, 23%);
     font-size: 25px;
     font-weight: 700;
     margin-top: 30px;
@@ -51,12 +52,17 @@ body{
 }
 
 .subtitulo_topo {
+    border: 1px solid red;
+    color: hsl(223, 47%, 23%);
+    width: 30ch;
+    align-self: center;
 
 }
 
 /* fim do cabeçalho */
 
 .promoção {
+    background-color: ;
     display: flex;
     align-items: center;
     justify-content: space-around;
